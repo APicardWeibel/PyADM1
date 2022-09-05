@@ -10,7 +10,7 @@ p_atm = 1.013
 
 
 def run_ADM1(
-    param: pd.Series,
+    param: pd.Series,  ## Dict would work as well
     influent_state: pd.DataFrame,
     initial_state: pd.Series,
     V_liq: float,
