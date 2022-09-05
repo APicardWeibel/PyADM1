@@ -1,0 +1,90 @@
+T_base: 298.15 #K
+f_sI_xc: 0.1
+f_xI_xc: 0.2
+f_ch_xc: 0.2
+f_pr_xc: 0.2
+f_li_xc: 0.3
+N_xc: 0.002685714
+N_I: 0.004285714286
+N_aa: 0.007
+C_xc: 0.02786
+C_sI: 0.03
+C_ch: 0.0313
+C_pr: 0.03
+C_li: 0.022
+C_xI: 0.03
+C_su: 0.0313
+C_aa: 0.03
+f_fa_li: 0.95
+C_fa: 0.0217
+f_h2_su: 0.19
+f_bu_su: 0.13 # Check
+f_pro_su: 0.27 # Check
+f_ac_su: 0.41 # Check
+N_bac: 0.005714285714285714 #kmole N.kg^-1COD
+C_bu: 0.025 #kmole C.kg^-1COD
+C_pro: 0.0268 #kmole C.kg^-1COD
+C_ac: 0.0313 #kmole C.kg^-1COD
+C_bac: 0.0313 #kmole C.kg^-1COD
+Y_su: 0.1 # Check
+f_h2_aa: 0.06
+f_va_aa: 0.23
+f_bu_aa: 0.26
+f_pro_aa: 0.05
+f_ac_aa: 0.40
+C_va: 0.024 #kmole C.kg^-1COD
+Y_aa: 0.08 # Check
+Y_fa: 0.06 # Check
+Y_c4: 0.06 # Check
+Y_pro: 0.04 # Check
+C_ch4: 0.0156 #kmole C.kg^-1COD
+Y_ac: 0.05 # Check
+Y_h2: 0.06 # Check
+k_dis: 0.5 #d^-1
+k_hyd_ch: 10 #d^-1 ## Check
+k_hyd_pr: 10 #d^-1 ## Check
+k_hyd_li: 10 #d^y1 ## Check
+K_S_IN: 0.0001 #M ## Check
+k_m_su: 30 #d^-1 ## Check
+K_S_su: 0.5 #kgCOD.m^-3
+pH_UL_aa: 5.5
+pH_LL_aa: 4
+k_m_aa: 50 #d^-1
+K_S_aa: 0.3 ##kgCOD.m^-3
+k_m_fa: 6 #d^-1
+K_S_fa: 0.4 #kgCOD.m^-3
+K_I_h2_fa: 0.000005 #kgCOD.m^-3
+k_m_c4: 20 #d^-1
+K_S_c4: 0.2 #kgCOD.m^-3
+K_I_h2_c4: 0.00001 #kgCOD.m^-3
+k_m_pro: 13 #d^-1
+K_S_pro: 0.1 #kgCOD.m^-3
+K_I_h2_pro: 0.0000035 #kgCOD.m^-3
+k_m_ac: 8 #kgCOD.m^-3
+K_S_ac: 0.15 #kgCOD.m^-3
+K_I_nh3: 0.0018 #M
+pH_UL_ac: 7
+pH_LL_ac: 6
+k_m_h2: 35 #d^-1
+K_S_h2: 0.000007 #kgCOD.m^-3
+pH_UL_h2: 6
+pH_LL_h2: 5
+k_dec_X_su: 0.02 #d^-1
+k_dec_X_aa: 0.02 #d^-1
+k_dec_X_fa: 0.02 #d^-1
+k_dec_X_c4: 0.02 #d^-1
+k_dec_X_pro: 0.02 #d^-1
+k_dec_X_ac: 0.02 #d^-1
+k_dec_X_h2: 0.02 #d^-1
+K_a_va: 0.000013803842646028839
+K_a_bu: 0.000015135612484362071
+K_a_pro: 0.000013182567385564074
+K_a_ac: 0.000017378008287493764
+k_A_B_va: 10000000000 #M^-1 * d^-1
+k_A_B_bu: 10000000000 #M^-1 * d^-1
+k_A_B_pro: 10000000000 #M^-1 * d^-1
+k_A_B_ac: 10000000000 #M^-1 * d^-1
+k_A_B_co2: 10000000000 #M^-1 * d^-1
+k_A_B_IN: 10000000000 #M^-1 * d^-1
+k_p: 50000 #m^3.d^-1.bar^-1 #only for BSM2 AD conditions, recalibrate for other AD cases #gas outlet friction
+k_L_a: 200.0 #d^-1
